@@ -1,8 +1,9 @@
-version: "2"
+version: "3"
 services:
   rabbit:
     image: rabbitmq:3.7-management
-    hostname: node-1.uggla.fr
+    hostname: node-2.uggla.fr
+    container_name: rabbit
     ports:
       - "4369:4369"
       - "5672:5672"
